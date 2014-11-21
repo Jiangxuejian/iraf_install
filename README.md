@@ -1,7 +1,5 @@
-iraf_install README
+iraf_install script README
 =================
-
-Welcome to the iraf_install wiki!
 
 It would be better if you have installed tcsh and downloaded iraf-linux.tar.gz before you run this script. 
 And this script will NOT create a new user iraf
