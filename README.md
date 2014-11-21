@@ -8,4 +8,4 @@ ref:
 
 http://astroleaks.lamost.org/?p=1563 (Chinese)
 
-http://geco.phys.columbia.edu/~rubab/iraf/iraf_step_by_step_installation"
+http://geco.phys.columbia.edu/~rubab/iraf/iraf_step_by_step_installation
