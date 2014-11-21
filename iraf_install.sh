@@ -1,7 +1,8 @@
 #!/bin/bash
 #script for IRAF installation under Linux
 # History:
-# 2011/05/25	Jiang Xuejian	First release
+# 2014/11/21    Jiang, Xue-Jian update the link of IRAF and DS9 to their latest version.
+# 2011/05/25	Jiang, Xue-Jian	First release
 echo "*************************************************************"
 echo "**                  IRAF installation                      **"
 echo "** It will be better if you have installed tcsh and        **"
@@ -60,7 +61,7 @@ if [ "$got_it_or_not" == "y" ]; then
 elif [ "$got_it_or_not" == "n" ]; then
 	echo -e "Please be sure you are connecting to the Internet"
 #	echo -e "Plase enter the password for user 'iraf'"
-	wget ftp://iraf.noao.edu/iraf/v215/PCIX/iraf-linux.tar.gz
+	wget ftp://iraf.noao.edu/iraf/v216/PCIX/iraf-linux.tar.gz
 	mv $iraf_location /iraf/iraf/
 	tar -xvf  ./iraf-linux.tar.gz
 	/iraf/iraf/unix/hlib/install 
@@ -149,8 +150,8 @@ if [ "$ds9" == "y" ]; then
 	
 	else	
 #	echo -e "Plase enter the password for user 'iraf'"
-	wget http://hea-www.harvard.edu/saord/download/ds9/linux/ds9.linux.6.2.tar.gz;\
-	tar -zxf ds9.linux.6.2.tar.gz
+	wget http://ds9.si.edu/download/linux/ds9.linux.7.3.2.tar.gz;\
+	tar -zxf ds9.linux.7.3.2.tar.gz
 	mv ds9 /usr/local/bin/
 	fi
 fi
